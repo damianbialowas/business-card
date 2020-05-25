@@ -1,9 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #2c2141;
   min-height: 100vh;
+  font-family: arial;
 }
 
 .main {
@@ -12,11 +22,40 @@ body {
   background-color: #f8f8f8;
   width: 624px;
   margin: 16px;
+  padding: 32px;
 
   border-radius: 16px;
 }
 
-img {
+.person {
+}
+
+.person__photo {
   width: 150px;
   border-radius: 50%;
+}
+
+.person__name {
+  margin: 0;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.person__position {
+  margin: 0;
+  font-style: italic;
+  font-size: 18px;
+  color: #545454;
+}
+
+.person__description {
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 22px;
+  width: 380px;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
 }
