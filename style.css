@@ -1,1 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2141;
+  min-height: 100vh;
+}
 
+.main {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 624px;
+  margin: 16px;
+
+  border-radius: 16px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
